@@ -1,0 +1,40 @@
+# Python ignores
+
+__pycache__/
+*__pycache__
+
+# References
+*matlab
+
+# Images
+*images
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+*.vscode
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Matlab ignores
+
+# Windows default autosave extension
+*.asv
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Simulink Code Generation
+slprj/
+
+# Session info
+octave-workspace
+
+# Simulink autosave extension
+*.autosave
