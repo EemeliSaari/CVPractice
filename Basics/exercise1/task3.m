@@ -1,9 +1,5 @@
 % Remaking image from tables data. 
 
-%% Test listing.m function
-
-paths = listing('C:\Users\Eemeli\Documents\Projects\CVPractice\Basics\exercise1\images');
-
 %% 
 % Index matrix get values over 255, so the type is uint16
 index_matrix = load('tables/index_matrix.mat');

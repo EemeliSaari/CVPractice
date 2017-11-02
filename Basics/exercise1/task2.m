@@ -2,6 +2,7 @@
 
 %% Load images to a dir
 
+% 112 sample images
 path = 'images/';
 img_struct = dir(path);
 
