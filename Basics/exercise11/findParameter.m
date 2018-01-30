@@ -12,6 +12,7 @@ for i = 1 : size(data,2)
         break;
     end
 end
-param = out;
-end
 
+param = out;
+
+end
