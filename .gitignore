@@ -7,8 +7,9 @@ __pycache__/
 *matlab
 
 # Images
-*images
-
+images/*
+/Advanced/exercise6/images/*
+/Basics/exercise1/images/*
 # C extensions
 *.so
 
@@ -23,6 +24,7 @@ __pycache__/
 *.spec
 
 # Matlab ignores
+*.m~
 
 # Windows default autosave extension
 *.asv
@@ -38,3 +40,6 @@ octave-workspace
 
 # Simulink autosave extension
 *.autosave
+
+# Local files:
+*resources/
