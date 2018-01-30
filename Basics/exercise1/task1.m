@@ -17,7 +17,7 @@ Imwrite(I1, 'kuva1.jpg');
 %% Playing with the image matrix
 
 % source: http://photojournal.jpl.nasa.gov/jpeg/PIA14317.jpg 
-img = imread('images/PIA14317.jpg');
+img = imread('resources/PIA14317.jpg');
 
 [x, y] = size(img);
 
@@ -27,7 +27,7 @@ plot(center_row);
 
 %% Take region from image
 % source: http://imgsrc.hubblesite.org/hu/db/images/hs-2006-01-a-1680x1050_wallpaper.jpg
-wp = imread('images/hs-2006-01-a-1680x1050_wallpaper.jpg');
+wp = imread('resources/hs-2006-01-a-1680x1050_wallpaper.jpg');
 figure; 
 hold on;
 f1 = imshow(wp);

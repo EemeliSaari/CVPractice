@@ -2,7 +2,7 @@
 
 %% Initialize the image and k vector
 
-I1 = imread('images/cameraman.tif');
+I1 = imread('resources/cameraman.tif');
 [ix, iy] = size(I1);
 
 k = 2.^[8:-1:1];

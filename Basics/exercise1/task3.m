@@ -2,12 +2,12 @@
 
 %% 
 % Index matrix get values over 255, so the type is uint16
-index_matrix = load('tables/index_matrix.mat');
+index_matrix = load('resources/tables/index_matrix.mat');
 index_matrix = index_matrix.indeksimatriisi; 
 [M, N] = size(index_matrix);
 
 % Table has floating point values, so it needs to be double
-table = load('tables/table.mat');
+table = load('resources/tables/table.mat');
 table = table.taulukko;
 
 %% Creating image by reading data from table.

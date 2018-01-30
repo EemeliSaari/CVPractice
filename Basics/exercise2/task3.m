@@ -2,7 +2,7 @@ t% Histogram
 
 %% Initialize the directory full of images.
 
-d = dir('images');
+d = dir('resources');
 
 % counter for subplot
 c = 1;

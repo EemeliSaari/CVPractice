@@ -3,7 +3,7 @@
 %% Load images to a dir
 
 % 112 sample images
-path = 'images/';
+path = 'resources/';
 img_struct = dir(path);
 
 %% Display the images in 8 by 14 subplot

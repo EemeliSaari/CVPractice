@@ -2,7 +2,7 @@
 
 %% Reads image and sets scale values to a matrix
 
-I1 = imread('images/cameraman.tif');
+I1 = imread('resurces/cameraman.tif');
 [ix, iy] = size(I1);
 
 resolutions = [ix/ix 64/ix 55/ix 45/ix 36/ix 27/ix 17/ix 8/ix];
